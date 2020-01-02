@@ -6,7 +6,7 @@
 <html>
 <head>
     <title></title>
-    <link href="includes/index.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
 
@@ -18,8 +18,20 @@
     </div>
     <h1 class="title">Current Events</h1>
     <div class="table-data">
-        I am content
+        <table style="width: 100%">
+            <tr>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+            </tr>
 
+        </table>
     </div>
     <div class="comments-section">
         I am content
