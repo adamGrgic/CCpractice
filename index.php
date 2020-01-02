@@ -6,16 +6,25 @@
 <html>
 <head>
     <title></title>
+    <link href="includes/index.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
-<?php
-    echo "<td>
-    <tr> Hi </tr>
-    <tr> Hello </tr>
-</td>"
 
-?>
+
+<div class="cc-container">
+    <div class="title-section">
+        I am content
+    </div>
+    <h1 class="title">Current Events</h1>
+    <div class="table-data">
+        I am content
+
+    </div>
+    <div class="comments-section">
+        I am content
+    </div>
+</div>
 
 
 <?php

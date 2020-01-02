@@ -1,0 +1,25 @@
+.table-data {
+    border: 1px red solid;
+}
+.title-section {
+    border: 1px blue solid;
+    background: blue;
+    color: blue;
+
+}
+
+.title {
+
+}
+h1 {
+    font-size: 50px;
+}
+
+.cc-container {
+    border: 1px teal solid;
+    color: teal;
+}
+
+.comments-section {
+    border: 1px yellow solid;
+}
