@@ -1,6 +1,6 @@
 <?php
-include_once 'includes/dbh.inc.php';
-?>
+//include_once 'includes/dbh.inc.php';
+//?>
 
 <!DOCTYPE html>
 <html>
@@ -10,17 +10,26 @@ include_once 'includes/dbh.inc.php';
 <body>
 
 <?php
-$sql = "SELECT * FROM users;";
-$result = mysqli_query($conn, $sql);
-$resultCheck = mysqli_num_rows($result);
+    echo "<td>
+    <tr> Hi </tr>
+    <tr> Hello </tr>
+</td>"
 
-if ($resultCheck > 0) {
-    while ($row = mysqli_fetch_assoc($result)) {
-        echo $row['user_first'] . "<td></td>";
-
-    }
-}
 ?>
+
+
+<?php
+//$sql = "SELECT * FROM users;";
+//$result = mysqli_query($conn, $sql);
+//$resultCheck = mysqli_num_rows($result);
+//
+//if ($resultCheck > 0) {
+//    while ($row = mysqli_fetch_assoc($result)) {
+//        echo $row['user_first'] . "<td></td>";
+//
+//    }
+//}
+//?>
 
 
 </body>
