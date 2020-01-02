@@ -3,8 +3,6 @@
 }
 .title-section {
     border: 1px blue solid;
-    background: blue;
-    color: blue;
 
 }
 
@@ -22,4 +20,8 @@ h1 {
 
 .comments-section {
     border: 1px yellow solid;
+}
+
+.table-header {
+    border: 1px black solid;
 }

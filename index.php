@@ -14,27 +14,81 @@
 
 <div class="cc-container">
     <div class="title-section">
-        I am content
+        <h1 class="title">Current Events</h1>
     </div>
-    <h1 class="title">Current Events</h1>
     <div class="table-data">
         <table style="width: 100%">
             <tr>
-                <th>Test</th>
-                <th>Test</th>
-                <th>Test</th>
-                <th>Test</th>
-                <th>Test</th>
-                <th>Test</th>
-                <th>Test</th>
-                <th>Test</th>
-                <th>Test</th>
+                <th class="table-header">Event ID</th>
+                <th class="table-header">Sources</th>
+                <th class="table-header">Zone</th>
+                <th class="table-header">Peak</th>
+                <th class="table-header">Profile</th>
+                <th class="table-header">Status</th>
+                <th class="table-header">Type</th>
+                <th class="table-header">Duration</th>
+                <th class="table-header">Actions</th>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
             </tr>
 
         </table>
     </div>
     <div class="comments-section">
-        I am content
+        Comments section
     </div>
 </div>
 
