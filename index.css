@@ -1,8 +1,8 @@
 .table-data {
-    border: 1px red solid;
+    border: 1px black solid;
 }
 .title-section {
-    border: 1px blue solid;
+    border: 1px black solid;
 
 }
 
@@ -15,12 +15,11 @@ h1 {
 }
 
 .cc-container {
-    color: black;
 
 }
 
 .comments-section {
-    border: 1px yellow solid;
+    border: 1px black solid;
 }
 
 .table-header {
@@ -29,5 +28,12 @@ h1 {
 
 .table {
     width: 100%;
-    background-color: white;
+}
+
+.events-container:nth-child(odd) {
+    background: lightgray;
+}
+
+.events-item {
+
 }
