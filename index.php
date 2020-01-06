@@ -3,6 +3,7 @@
     $sql = "SELECT * FROM events;";
     $result = mysqli_query($conn, $sql);
     $resultCheck = mysqli_num_rows($result);
+    $status_colors = array()
 ?>
 
 <!DOCTYPE html>
@@ -45,9 +46,9 @@
                             <tr class="events-container">
                                 <td class="events-item"><input type="checkbox"><?php echo $rows ['Event_id']; ?></td>
                                 <td><?php echo $rows ['Source']; ?></td>
-                                <td><?php echo $rows ['Zone']; ?></td>
+                                <td><?php if ($rows ['Zone'] === 'SYSTEM') {} echo $rows ['Zone']; ?></td>
                                 <td><?php echo $rows ['Peak']; ?></td>
-                                <td colspan="2"><?php echo $rows ['Profile']; ?></td>
+                                <td><?php echo $rows ['Profile']; ?></td>
                                 <td><?php echo $rows ['Status']; ?></td>
                                 <td><?php echo $rows ['Type']; ?></td>
                                 <td><?php echo $rows ['Duration']; ?></td>
@@ -55,6 +56,7 @@
                             </tr>
 
                             <?php
+
                         }}
                 ?>
 
@@ -62,7 +64,13 @@
             </table>
         </div>
         <div class="comments-section">
-            Comments section
+            <input class="comments" type="text" placeholder="(Optional Add a Description...)">
+
+        </div>
+        <div class="footer">
+            <div class="pin-container">
+
+            </div>
         </div>
     </div>
 

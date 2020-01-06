@@ -2,8 +2,6 @@
     border: 1px black solid;
 }
 .title-section {
-    border: 1px black solid;
-
 }
 
 .title {
@@ -23,7 +21,6 @@ h1 {
 }
 
 .table-header {
-    border: 1px black solid;
 }
 
 .table {
@@ -35,5 +32,11 @@ h1 {
 }
 
 .events-item {
+}
+
+.comments {
+    padding-bottom: 50px;
+    padding-right: 200px;
+    width: 100%;
 
 }
