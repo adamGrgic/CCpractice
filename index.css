@@ -40,3 +40,20 @@ h1 {
     width: 100%;
 
 }
+
+#profile-row {
+    width: 15%;
+    text-align: center;
+}
+
+#source-row {
+    width: 15%;
+}
+
+td {
+    text-align: center;
+}
+
+#pin-container {
+    text-align: right;
+}

@@ -44,15 +44,15 @@
 
                             ?>
                             <tr class="events-container">
-                                <td class="events-item"><input type="checkbox"><?php echo $rows ['Event_id']; ?></td>
-                                <td><?php echo $rows ['Source']; ?></td>
-                                <td><?php if ($rows ['Zone'] === 'SYSTEM') {} echo $rows ['Zone']; ?></td>
-                                <td><?php echo $rows ['Peak']; ?></td>
-                                <td><?php echo $rows ['Profile']; ?></td>
-                                <td><?php echo $rows ['Status']; ?></td>
-                                <td><?php echo $rows ['Type']; ?></td>
-                                <td><?php echo $rows ['Duration']; ?></td>
-                                <td><?php echo $rows ['Actions']; ?></td>
+                                <td id="events-item"><input type="checkbox"><?php echo $rows ['Event_id']; ?></td>
+                                <td id="source-row"><?php echo $rows ['Source']; ?></td>
+                                <td id="zone-row"><?php echo $rows ['Zone']; ?></td>
+                                <td id="peak-row"><?php echo $rows ['Peak']; ?></td>
+                                <td id="profile-row"><?php echo $rows ['Profile']; ?></td>
+                                <td id="status-row"><?php echo $rows ['Status']; ?></td>
+                                <td id="type-row"><?php echo $rows ['Type']; ?></td>
+                                <td id="duration-row"><?php echo $rows ['Duration']; ?></td>
+                                <td id="actions-row"><?php echo $rows ['Actions']; ?></td>
                             </tr>
 
                             <?php
@@ -68,13 +68,15 @@
 
         </div>
         <div class="footer">
-            <div class="pin-container">
-
+            <div id="pin-container">
+                PIN Code:
+                <input type="number">
+                <input type="submit">
             </div>
         </div>
     </div>
 
-    <!--<script>
+   <!-- <script>
         $(document).ready(function()
             {
             $("td:odd").css({
@@ -83,20 +85,16 @@
         });
     </script>-->
 
+    <script>
+        $(document).ready(function()
+        {
+            $("td:contains('test6')").css({
+                "background-color":"#ff0000"});
 
-<?php
-//$sql = "SELECT * FROM users;";
-//$result = mysqli_query($conn, $sql);
-//$resultCheck = mysqli_num_rows($result);
-//
-//if ($resultCheck > 0) {
-//    while ($row = mysqli_fetch_assoc($result)) {
-//        echo $row['user_first'] . "<td></td>";
-//
-//    }
-//}
-//?>
-
+            $("td:contains('SYSTEM')").css({
+                "background-color":"green"});
+        });
+    </script>
 
 </body>
 </html>
